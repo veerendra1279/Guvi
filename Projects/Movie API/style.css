@@ -1,0 +1,29 @@
+.nav-color{
+    color: white !important;
+}
+
+.transition-hover{
+    transition: all 0.2s linear;
+}
+img.transition-hover:hover{
+    transform: translate(7px,5px);
+}
+
+@media screen and (min-width:200px) and (max-width:800px){
+    .imgResponse{
+        height: 300px !important;
+    }
+    .popupImage{
+        width: 400px !important;
+        /* height: 200px !important; */
+    }
+}
+@media screen and (min-width:801px){
+    .imgResponse{
+        height: 400px !important;
+    }
+    .popupImage{
+        width: 300px !important;
+        height: 200px !important;
+    }
+}
